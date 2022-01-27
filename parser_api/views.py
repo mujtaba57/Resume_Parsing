@@ -1,8 +1,6 @@
 from drf_yasg.utils import swagger_auto_schema
 from rest_framework.response import Response
 from rest_framework.views import APIView
-
-from Topic.topic import *
 from parser_api.serializers import ParserSerializer
 from query_extractor.result_extract import *
 
